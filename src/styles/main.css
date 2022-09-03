@@ -1,0 +1,82 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+.text-white {
+  color: white;
+}
+.bold-text {
+  font-weight: 700;
+}
+.facebook {
+  color: hsl(208, 92%, 53%);
+}
+.twitter {
+  color: hsl(203, 89%, 53%);
+}
+.instagram {
+  background: -webkit-linear-gradient(#fdc468, #df4996);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.youtube {
+  color: hsl(348, 97%, 39%);
+}
+
+.bg {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(230, 17%, 14%);
+}
+.bg-dark {
+  background-color: hsl(230, 17%, 14%);
+  color: white;
+}
+.bg-top {
+  background-color: hsl(225, 100%, 98%);
+}
+.bg-top-dark {
+  background-color: hsl(232, 19%, 15%);
+}
+.bg-card {
+  background-color: hsl(227, 47%, 96%);
+}
+.bg-card-hover {
+  background-color: hsl(233, 11%, 86%);
+}
+.bg-card-dark-hover {
+  background-color: rgb(30, 35, 53);
+}
+.bg-card-dark {
+  background-color: hsl(228, 28%, 20%);
+}
+
+#toggle {
+  width: 3rem;
+  height: 1.4rem;
+  /* background: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%)); */
+}
+
+#toggle-label {
+  font-size: 0.8rem;
+}
+
+/* borders */
+
+.no-borders {
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+}
+
+.facebook-border {
+  border-top: 5px solid hsl(208, 92%, 53%);
+}
+.twitter-border {
+  border-top: 5px solid hsl(203, 89%, 53%);
+}
+.instagram-border {
+  /* border-image: linear-gradient(hsl(37, 97%, 70%) to hsl(329, 70%, 58%)); */
+  border-top: 5px solid hsl(329, 70%, 58%);
+}
+.youtube-border {
+  border-top: 5px solid hsl(348, 97%, 39%);
+}
